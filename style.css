@@ -1,0 +1,132 @@
+/* Use colors from http://colorpalettes.net/color-palette-2538/ */
+/* Base Styles */
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/* Grid System */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+/* Header */
+header {
+  height: 200px;
+  background-color: #233f01;
+}
+
+header h1 {
+  font-family: 'Old Standard TT';
+  font-size: 52px;
+  color: #b0000c;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+header nav {
+  float: right;
+  padding: 50px 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  font-family: 'Old Standard TT';
+  color: #b0000c;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #718048;
+}
+
+/* Poster */
+#poster {
+  height: 600px;
+}
+
+#poster h2 {
+  font-size: 42px;
+  font-family: 'Old Standard TT';
+  color: #b0000c;
+  text-align: center;
+  font-weight: bold;
+}
+
+#poster img {
+  height: 500px;
+  padding-top: 15px;
+  margin-left: 50px;
+}
+
+#poster h3 {
+  font-size: 32px;
+  font-family: 'Old Standard TT';
+  color: #233f01;
+}
+
+/* Synopsis */
+#synopsis {
+  height: 500px;
+}
+
+#synopsis h3 {
+  font-size: 32px;
+  font-family: 'Old Standard TT';
+  color: #233f01;
+}
+
+/* Cast */
+#cast {
+  height: 300px;
+}
+
+#cast h3 {
+  font-size: 32px;
+  font-family: 'Old Standard TT';
+  color: #233f01;
+}
+
+#cast ul li {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+/* Media */
+#media {
+  height: 500px;
+}
+
+#media h3 {
+  font-size: 32px;
+  font-family: 'Old Standard TT';
+  color: #233f01;
+}
+
+#media iframe {
+  width: 660px;
+  height: 415px;
+  margin-left: 150px;
+}
+
+/* Footer */
+footer {
+  height: 50px;
+  background-color: #233f01;
+  color: #b0000c;
+  font-size: 15px;
+  padding: 15px;
+}
