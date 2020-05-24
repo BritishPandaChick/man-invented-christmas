@@ -1,0 +1,19 @@
+{
+  "name": "dickens-movie",
+  "version": "1.0.0",
+  "description": "30 Days, 30 Sites movie trailer page from first round of 100 Days of Code. Made with HTML and CSS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BritishPandaChick/man-invented-christmas.git"
+  },
+  "author": "Sarah Bartley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BritishPandaChick/man-invented-christmas/issues"
+  },
+  "homepage": "https://github.com/BritishPandaChick/man-invented-christmas#readme"
+}
