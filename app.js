@@ -8,23 +8,23 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs")
 app.use(express.static(__dirname + "/public"));
 
-app.use("/", function(req, res){
-    res.render("landing")
+app.get("/", function(req, res){
+    res.render("landing");
 });
 
-app.use("/synopsis", function(req, res){
+app.get("/synopsis", function(req, res){
     res.render("synopsis");
 });
 
-app.use("/cast", function(req, res){
+app.get("/cast", function(req, res){
     res.render("cast");
 });
 
-app.use("/crew", function(req, res){
+app.get("/crew", function(req, res){
     res.render("crew");
 });
 
-app.use("/news", function(req, res){
+app.get("/news", function(req, res){
     res.render("news");
 });
 
