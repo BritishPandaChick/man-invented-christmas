@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/BritishPandaChick/man-invented-christmas#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "mongoose": "^5.13.20"
   }
 }
